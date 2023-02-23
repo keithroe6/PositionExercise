@@ -5,135 +5,137 @@ body {
     color: white;
     text-align: center;
     font-size: 25px;
-    }
-    
-    h1 {
+}
+
+h1 {
     text-transform: uppercase;
     background: #002754;
     display: inline-block;
-    }
-    
-    h2 {
+}
+
+h2 {
     text-decoration: underline;
     background: #7B6FDE;
     width: 20%;
     margin: auto;
-    }
-    
-    div {
+}
+
+div {
     padding: 20px;
     width: 65px;
     height: 65px;
     border-radius: 50px;
     display: inline-block;
-    }
-    
-    section {
+}
+
+section {
     width: 50vw;
     height: 20vw;
     margin: auto;
     /* margin-bottom: 100px; */
-    }
-    
-    #one {
-    background: rgb(200,60,60);
-    }
-    
-    #two {
+}
+
+#one {
+    background: rgb(200, 60, 60);
+}
+
+#two {
     font-weight: 400;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    }
-    
-    #space {
+}
+
+#space {
     background: #266ef6;
-    }
-    
-    
-    #power {
+}
+
+
+#power {
     background: #e429f2;
-    }
-    
-    #soul {
+}
+
+#soul {
     background: #ff8b00;
-    }
-    
-    #reality {
+}
+
+#reality {
     background: #ff0130;
-    }
-    
-    #mind {
+}
+
+#mind {
     background: #ffd300;
-    }
-    
-    #time {
+}
+
+#time {
     background: #12e772;
-    }
-    
-    #scroll {
+}
+
+#scroll {
     margin-bottom: 2000px;
-    }
-    
-    /* START BELOW THIS LINE */
-    /* 1. default position value. */
-    /* The default position for all elements is the Static position. Elements render in order as target appears in the document flow. (w3schools) */
-    
-    /* 2. Move Power Stone to left of Space Stone */
-    #power {
-        position: relative;
-        right: 225px;
-        }
+}
 
-    /* 3. Move Space Stone to new location below Power Stone */
-    #space {
-        position: relative;
-        right: 115px;
-        top: 115px;
-        }
+/* START BELOW THIS LINE */
+/* 1. default position value. */
+/* The default position for all elements is the Static position. Elements render in order as target appears in the document flow. (w3schools) */
 
-    /* 4. Set Soul Stone in bottom right corner. Moves up when you scroll down. */
-    #soul {
-        position: absolute;
-        top: 710px;
-        left: 1320px;
-    }
+/* 2. Move Power Stone to left of Space Stone */
+#power {
+    position: relative;
+    right: 225px;
+}
 
-    /* 5. Reality Stone 150px above bottom right corner. Moves up when you scroll. */
-    #reality {
-        position: absolute;
-        top: 560px;
-        left: 1320px;
-    }
+/* 3. Move Space Stone to new location below Power Stone */
+#space {
+    position: relative;
+    right: 115px;
+    top: 115px;
+}
 
-    /* 6. Move Mind Stone to right and maintain position on screen.  */
-    #mind{
-        position: fixed;
-        left: 1320px;
-    }
+/* 4. Set Soul Stone in bottom right corner. Moves up when you scroll down. */
+#soul {
+    position: absolute;
+    top: 710px;
+    left: 1320px;
+}
 
-    /* 7. Move Time Stone to top right corner and maintain position on screen */
-    #time{
-        position: fixed;
-        top: 0;
-        left: 1320px;
-    }
+/* 5. Reality Stone 150px above bottom right corner. Moves up when you scroll. */
+#reality {
+    position: absolute;
+    top: 560px;
+    left: 1320px;
+}
 
-    /* 8. Make Infinity Stones element sticky. */
-    /* 9. Make infinity Stones pass in front of Power and Space stones */
-    
-    span {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    } 
+/* 6. Move Mind Stone to right and maintain position on screen.  */
+#mind {
+    position: fixed;
+    left: 1320px;
+}
 
-    /* Bonus */
-    #reality{
-        z-index: 3;
-    }
-    #time{
-        z-index: 2;
-    }
-    #soul{
-        z-index: 1;
-    }
+/* 7. Move Time Stone to top right corner and maintain position on screen */
+#time {
+    position: fixed;
+    top: 0;
+    left: 1320px;
+}
+
+/* 8. Make Infinity Stones element sticky. */
+/* 9. Make infinity Stones pass in front of Power and Space stones */
+
+span {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Bonus */
+#reality {
+    z-index: 3;
+}
+
+#time {
+    z-index: 2;
+}
+
+#soul {
+    z-index: 1;
+}

@@ -94,28 +94,28 @@ section {
 /* 4. Set Soul Stone in bottom right corner. Moves up when you scroll down. */
 #soul {
     position: absolute;
-    top: 710px;
-    left: 1320px;
+    right: 0;
+    bottom: 0;
 }
 
 /* 5. Reality Stone 150px above bottom right corner. Moves up when you scroll. */
 #reality {
     position: absolute;
-    top: 560px;
-    left: 1320px;
+    right: 0;
+    bottom: 150px;
 }
 
 /* 6. Move Mind Stone to right and maintain position on screen.  */
 #mind {
     position: fixed;
-    left: 1320px;
+    right: 0;
 }
 
 /* 7. Move Time Stone to top right corner and maintain position on screen */
 #time {
     position: fixed;
     top: 0;
-    left: 1320px;
+    right: 0;
 }
 
 /* 8. Make Infinity Stones element sticky. */
